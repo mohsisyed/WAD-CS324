@@ -1,11 +1,140 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WAD-324 | My Assignments</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #cbd5e1;
+            font-size: 16px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+
+        .assignment-card {
+            background: white;
+            padding: 30px;
+            border-radius: 14px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            max-width: 400px;
+            transition: 0.3s;
+        }
+
+        .assignment-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .assignment-number {
+            color: #2563eb;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .assignment-card h3 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .assignment-card p {
+            color: #64748b;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .assignment-link {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 12px 22px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .assignment-link:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #64748b;
+        }
+    </style>
 </head>
+
 <body>
-<h1>WAD-324</h1>
+
+    <header>
+        <h1>WAD-324</h1>
+        <p>Web Application Development</p>
+    </header>
+
+    <main>
+        <h2 class="section-title">My Assignments</h2>
+
+        <!-- Assignment 2 -->
+        <div class="assignment-card">
+            <div class="assignment-number">ASSIGNMENT 02</div>
+
+            <h3>Assignment 2</h3>
+
+            <p>
+                View my Assignment 2 project and submission.
+            </p>
+
+            <!-- Replace # with your assignment link -->
+            <a href="#" class="assignment-link" target="_blank">
+                View Assignment
+            </a>
+        </div>
+
+    </main>
+
+    <footer>
+        &copy; 2026 | WAD-324
+    </footer>
+
 </body>
 </html>
