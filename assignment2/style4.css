@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7f3;
+    color: #26352d;
+}
+
+header {
+    background: white;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #315b49;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #315b49;
+    padding: 10px 14px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background: #e2ebe3;
+}
+.upload-form {
+    max-width: 600px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.upload-form input,
+.upload-form select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.upload-form button {
+    background: #315b49;
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.upload-form a {
+    text-align: center;
+    padding: 10px;
+    color: #315b49;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    background: white;
+    color: #777;
+    margin-top: 40px;
+}
